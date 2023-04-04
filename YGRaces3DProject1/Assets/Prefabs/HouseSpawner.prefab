@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4712385109592137897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4712385109592137896}
+  - component: {fileID: 4712385109592137899}
+  m_Layer: 0
+  m_Name: HouseSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4712385109592137896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4712385109592137897}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0000019073486, y: 0, z: -8.800002}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4712385109592137899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4712385109592137897}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83447c5b7f1ad4b4dab567f5c09a7911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 7228431591616260861, guid: b714f37c18b3a8d4fa9b3b64a1adf6a1, type: 3}
+  - {fileID: 5336825498926462714, guid: 0aadd1c9f5b7214449072df8a70fd8ec, type: 3}
+  - {fileID: 5528980218858144706, guid: fefe7ad86dc123147bdf14529e474398, type: 3}
+  - {fileID: 1779119681673395240, guid: 2c07274d10fc8a14494798ed9c031fc7, type: 3}
+  - {fileID: 5810910894326125805, guid: ef92195c2c5f09447983fe3bb7311d7e, type: 3}
+  - {fileID: 1491625501907971554, guid: f72ceefdd825f9b418915be7d530baaa, type: 3}
+  - {fileID: 7079615176782229987, guid: c00b53e45eece8843be76bb366a1d873, type: 3}
+  distanceBetweenObjects: 10
+  isRightSide: 0
