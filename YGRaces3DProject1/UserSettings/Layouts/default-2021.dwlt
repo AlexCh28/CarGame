@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 125
+  controlID: 96
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -123,13 +123,13 @@ MonoBehaviour:
     height: 386
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
   - {fileID: 14}
   - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -390,8 +390,8 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0c7a0000
-    m_LastClickedID: 31244
+    m_SelectedIDs: 0a7a0000
+    m_LastClickedID: 31242
     m_ExpandedIDs: 00000000c479000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -447,7 +447,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 900c0100b80b01008c0c0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -518,22 +518,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/Spawners
+    - Assets/Scripts/RoadParts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts/Spawners
+  - Assets/Scripts/RoadParts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\sania\Desktop\CarGame\YGRaces3DProject1
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 7}
-    m_SelectedIDs: 4e7c0000
-    m_LastClickedID: 31822
-    m_ExpandedIDs: 00000000c4790000
+    m_SelectedIDs: de7c0000
+    m_LastClickedID: 31966
+    m_ExpandedIDs: 00000000c4790000127a0000de7c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -586,8 +586,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 4ca4fdff
-    m_LastClickedInstanceID: -154548
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -693,7 +693,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: d6faffff
+      m_ExpandedIDs: d6faffff80730000b0730000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -998,9 +998,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.62612325, y: 6.609481, z: 10.322738}
+    m_Target: {x: 0.03673245, y: 9.211115, z: 10.467281}
     speed: 2
-    m_Value: {x: 0.62612325, y: 6.609481, z: 10.322738}
+    m_Value: {x: 0.03673245, y: 9.211115, z: 10.467281}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1047,9 +1047,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0016684183, y: -0.9812492, z: 0.1925943, w: 0.00850108}
+    m_Target: {x: -0.0020781513, y: -0.7823863, z: 0.6227977, w: -0.0026104308}
     speed: 2
-    m_Value: {x: -0.0016684184, y: 0.9812493, z: -0.19259432, w: -0.008501081}
+    m_Value: {x: -0.0020781343, y: -0.78237987, z: 0.6227926, w: -0.0026104094}
   m_Size:
     m_Target: 1.5699855
     speed: 2
